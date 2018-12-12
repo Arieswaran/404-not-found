@@ -1,0 +1,107 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+</head>
+<center><h1>Heart Disease</h1></center>
+<style>
+body, html {
+    height: 110%;
+    margin: 0;
+}
+h1{
+color:blue;
+font-size="9";}
+
+.bg {
+    /* The image used */
+    background-image: url("h.jpeg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+</style>
+
+<div class="bg">
+<form method="post" action="test.php">
+<div align="center">
+<table style="padding:15px;color:black;font-size:20px;border-spacing:10px">
+<body><tr>
+      <td>1.Age:</td>
+      <td><input type="text" id="age" name="age" required></td>
+</tr>
+<tr>
+      <td>2.Gender:</td>
+      <td><input type="radio" name="Gender" value="1" required>Male</td>
+      <td><input type="radio" name="Gender" value="0">Female</td>
+</tr>
+<tr>
+<td>3.Chest Pain Type:</td>
+<td><input  type="radio" name="Chest_pain_type" value="1"required>Typical angina</td>
+ <td><input  type="radio" name="Chest_pain_type" value="2">Atypical angina</td></tr>
+<tr>
+<td></td>
+<td><input  type="radio" name="Chest_pain_type" value="3">Non-anginal pain</td>
+<td><input  type="radio" name="Chest_pain_type" value="4">Asymptoma</td>
+</tr>
+<tr>
+<td>4.BB:</td>
+<td><input type="text" name="blood_pressure" required></td>
+</tr>
+<tr>
+<td>5.Cholestoral:</td>
+<td><input  type="text" name="cholestoral" required></td>
+</tr>
+<tr>
+<td>6.Blood Sugar>120:</td>
+<td><input type="radio" name="blood_sugar" value="1" required>Yes</td>
+<td><input type="radio" name="blood_sugar" value="0">No</td>
+</tr>
+<tr>
+<td>7.Electrocardiographic results:</td>
+<td><input type="radio" name="Electrocardiographic_results" value="0" required>Normal</td>
+ <td><input type="radio" name="Electrocardiographic_results" value="1">Abnormal</td>
+<td><input type="radio" name="Electrocardiographic_results" value="2">Probable</td>
+</tr>
+<tr>
+<td>8.Max Heart Rate:</td>
+<td><input type="text" name="max_heart_rate" required></td>
+</tr>
+<tr>
+<td>9.Exercise Induced Angina:</td>
+<td><input type="radio"  name="exercise_induced_angina" value="1" required>Yes</td>
+<td><input type="radio"  name="exercise_induced_angina" value="0" required>No</td>
+</tr>
+<tr>
+<td>10.Oldpeak:</td>
+<td><input type="text" name="oldpeak"  required></td>
+</tr>
+<tr>
+<td>11.Slope:</td>
+<td><input type="radio" name="slope" value="1" required>Upsloping </td>
+ <td><input type="radio" name="slope" value="2">Flat</td>
+<td><input type="radio" name="slope" value="3">Downsloping</td>
+</tr>
+<tr>
+<td>12.Number Of Major Vessels (0-3) colored by flourosopy:</td>
+<td><input type="text" name="ca" required></td>
+</tr>
+<tr>
+<td>13.Thal:</td>
+<td><input type="radio" name="thal" value="3" required>Normal</td>
+ <td><input type="radio" name="thal" value="6">Fixed defect</td>
+<td><input type="radio" name="thal" value="7">Reversable defect</td>
+</tr>
+<tr><td></td>
+      <td><input type="submit" name="Check"></td>
+     </tr>
+</table>
+
+</div>
+
+</form></body></html>
